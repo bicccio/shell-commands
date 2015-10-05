@@ -13,4 +13,4 @@ Rename recursively all files in the current directory changing the extension fro
 #### SSH
 **ssh login without password**  
 
-`cat .ssh/id_rsa.pub | ssh b@B 'cat >> .ssh/authorized_keys`
+`cat .ssh/id_rsa.pub | ssh b@B 'cat >> .ssh/authorized_keys'`
