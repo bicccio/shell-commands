@@ -9,7 +9,7 @@ Rename recursively all files in the current directory changing the extension fro
 `find . -name "*.ext1" -exec rename -v 's/\.ext1$/.ext2/' '{}' \;`
 
 
-**Count file number inside each subdirectories**
+**Count file number inside each subdirectories**  
 Count the number of files inside each directory
 
 `find */ | cut -d/ -f1 | uniq -c`
